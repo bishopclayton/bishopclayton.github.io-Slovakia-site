@@ -1,0 +1,66 @@
+h1 {
+    width: 50vw;
+    text-align: center;
+    border-style: ridge;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    display: inline-block;
+    margin-left: 3.45vw;
+    margin-right: 3.45vw;
+    width: 25vw
+}
+
+ul {
+    list-style-type: none; /*remove bullets*/
+    padding-left: 0%; /*get rid of padding */
+    margin: auto; /*set the margins to auto */
+    width: 30vw; /*limit the width */
+    text-align: center; /*align text to the center of the block */
+}
+
+li {
+    display: inline-block; /* keeps all block behavior but doesn't start new line */
+    border: outset;
+}
+
+ul>li>a:hover {
+    background-color: crimson;
+    color: white;
+    border: inset;
+}
+
+body {
+    background-image: url(Images/Flag-Slovakia.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 3vw;
+}
+
+.castles {
+    width: 60vw;
+    display: block;
+    margin: auto;
+}
+
+.caves {
+    width: 60vw;
+    display: block;
+    margin: auto;
+}
+
+.brat {
+    width: 60vw;
+    display: block;
+    margin: auto;
+}
+
